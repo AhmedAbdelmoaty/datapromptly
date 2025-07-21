@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Engineering | DataPromptly</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="https://img.icons8.com/fluency/96/artificial-intelligence.png" alt="DataPromptly Logo" class="logo">
+                <div class="logo-text">
+                    <h1>DataPromptly</h1>
+                    <p class="tagline">Smarter Data. Better Prompts. Faster Results.</p>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./data-analysis.html">Data Analysis</a></li>
+                    <li><a href="./prompt-engineering.html" class="active">Prompt Engineering</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Prompt Engineering</h1>
+            <p>Master the art of crafting effective prompts to get the best results from AI language models.</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Introduction Section -->
+            <section class="content-section">
+                <h2>What is Prompt Engineering?</h2>
+                <p>Prompt engineering is the practice of designing and refining inputs (prompts) to guide AI language models toward producing desired outputs. As AI systems become more sophisticated, the ability to communicate effectively with them through well-crafted prompts has become an essential skill.</p>
+                
+                <div class="content-image">
+                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Person typing on laptop with AI concept overlay" loading="lazy">
+                </div>
+            </section>
+
+            <!-- Importance Section -->
+            <section class="content-section">
+                <h2>Why Prompt Engineering Matters</h2>
+                <p>Effective prompt engineering can dramatically improve the quality of AI-generated responses:</p>
+                <ul class="feature-list">
+                    <li><strong>Precision:</strong> Get more accurate and relevant responses tailored to your needs.</li>
+                    <li><strong>Efficiency:</strong> Reduce the need for multiple iterations to get useful output.</li>
+                    <li><strong>Creativity:</strong> Unlock more innovative and unexpected solutions from AI.</li>
+                    <li><strong>Control:</strong> Guide the AI's response style, format, and depth.</li>
+                    <li><strong>Reproducibility:</strong> Create reliable prompts that consistently produce good results.</li>
+                </ul>
+                
+                <div class="content-image">
+                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Comparison of different AI prompt results" loading="lazy">
+                </div>
+            </section>
+
+            <!-- Techniques Section -->
+            <section class="content-section">
+                <h2>Prompt Engineering Best Practices</h2>
+                <div class="techniques-grid">
+                    <div class="technique-card">
+                        <h3>Be Specific</h3>
+                        <p>Clearly define what you want, including context, format, and any constraints. Vague prompts lead to vague answers.</p>
+                    </div>
+                    <div class="technique-card">
+                        <h3>Provide Context</h3>
+                        <p>Give enough background information to help the AI understand the scenario and your goals.</p>
+                    </div>
+                    <div class="technique-card">
+                        <h3>Use Examples</h3>
+                        <p>Show the AI what you're looking for by including sample inputs and desired outputs.</p>
+                    </div>
+                    <div class="technique-card">
+                        <h3>Iterate and Refine</h3>
+                        <p>Treat prompt creation as an iterative process, refining based on the AI's responses.</p>
+                    </div>
+                    <div class="technique-card">
+                        <h3>Set the Tone</h3>
+                        <p>Specify if you want a formal, casual, technical, or simple explanation.</p>
+                    </div>
+                    <div class="technique-card">
+                        <h3>Use Step-by-Step</h3>
+                        <p>Break complex requests into logical steps for better reasoning from the AI.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Examples Section -->
+            <section class="content-section">
+                <h2>Prompt Engineering Examples</h2>
+                <div class="example-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-button active" data-tab="basic">Basic</button>
+                        <button class="tab-button" data-tab="intermediate">Intermediate</button>
+                        <button class="tab-button" data-tab="advanced">Advanced</button>
+                    </div>
+                    <div class="tab-content active" data-tab="basic">
+                        <h3>Basic Prompt</h3>
+                        <div class="prompt-example">
+                            <p class="prompt-text">"Explain machine learning"</p>
+                            <p class="prompt-result">This might produce a very general overview without focus on your specific needs.</p>
+                        </div>
+                    </div>
+                    <div class="tab-content" data-tab="intermediate">
+                        <h3>Intermediate Prompt</h3>
+                        <div class="prompt-example">
+                            <p class="prompt-text">"Explain machine learning to a business executive in 3 paragraphs, focusing on practical applications rather than technical details. Include 2 real-world examples from the retail industry."</p>
+                            <p class="prompt-result">This will produce a targeted response with executive-level language, practical focus, and specific retail examples like recommendation systems and inventory forecasting.</p>
+                        </div>
+                    </div>
+                    <div class="tab-content" data-tab="advanced">
+                        <h3>Advanced Prompt</h3>
+                        <div class="prompt-example">
+                            <p class="prompt-text">"Act as a senior data scientist with 10 years of experience in retail. Explain how machine learning can improve inventory management to a skeptical store manager who is concerned about cost. Use analogies from sports to make it relatable, and include 3 specific examples of ML techniques that could be applied. Format the response as a persuasive email with subject line 'Unlocking Inventory Efficiency' and keep it under 400 words."</p>
+                            <p class="prompt-result">This generates a professionally formatted email with sports analogies comparing inventory to a basketball team's roster, specific techniques like demand forecasting with XGBoost, and cost-benefit analysis tailored to retail managers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-image">
+                    <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Developer working with AI chatbot interface" loading="lazy">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://img.icons8.com/fluency/96/artificial-intelligence.png" alt="DataPromptly Logo" class="logo">
+                    <p>Smarter Data. Better Prompts. Faster Results.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./data-analysis.html">Data Analysis</a></li>
+                        <li><a href="./prompt-engineering.html">Prompt Engineering</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p>Email: info@datapromptly.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> DataPromptly. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
